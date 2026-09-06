@@ -1,14 +1,14 @@
 # English (en) Language Configuration Properties
 
 # Translatable Wedding Characters
-groomName: "Abresh"
-brideName: "Kal"
-weddingDate: "September 20, 2026"
-weddingDateFormatted: "Sunday, Sept 20, 2026"
-weddingTime: "4:00 PM UTC"
-venueName: "Feleke Teka Wedding Hall"
-venueLocation: "Beside Nifas Silk Lafto Technical and Professional Training College"
-venueDescription: "Our wedding ceremony and reception is hosted at the magnificent Feleke Teka Wedding Hall around Nifas Silk Lafto Technical and Professional Training College."
+groomName: "Tharindu"
+brideName: "Susandi"
+weddingDate: "October 29, 2026"
+weddingDateFormatted: "Thursday, Oct 29, 2026"
+weddingTime: "10:30 PM UTC"
+venueName: "Amora Lagoon, Katunayake"
+venueLocation: "Near Cargils Food city Liyanagemulla"
+venueDescription: "Our wedding ceremony and reception is hosted at the magnificent Amora Lagoon, Katunayake around Near Cargils Food city Liyanagemulla."
 
 # Section Titles Configuration
 sectionConfigs:
