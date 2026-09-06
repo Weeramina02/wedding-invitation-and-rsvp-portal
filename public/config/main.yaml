@@ -18,10 +18,10 @@ monagramInitials: "A&K"
 
 # Timeline & Countdown Target Date
 # Time in ISO-8601 format (e.g. "2026-09-20T16:00:00Z")
-countdownTarget: "2026-09-20T16:00:00Z"
+countdownTarget: "2026-10-29T10:30:00Z"
 
 # Address query for geolocating directions
-addressQuery: "Feleke Teka Wedding Hall | ፈለቀ ተካ የሠርግ አዳራሽ"
+addressQuery: "Amora Lagoon, Katunayake | ፈለቀ ተካ የሠርግ አዳራሽ"
 
 # Integrations and External URLs
 formspreeId: "xjgzaejz"
