@@ -107,7 +107,7 @@ export default function Hero() {
           transition={{ delay: 0.7, duration: 0.9 }}
           className="font-serif text-4xl md:text-6xl text-brand-primary tracking-normal mb-2 leading-tight"
         >
-          {groom} <span className="text-brand-accent font-light font-sans text-xl md:text-3xl align-middle mx-1">{t('common.and', 'and')}</span> {bride}
+          {bride} <span className="text-brand-accent font-light font-sans text-xl md:text-3xl align-middle mx-1">{t('common.and', 'and')}</span> {groom}
         </motion.h1>
 
         <motion.p 
