@@ -26,7 +26,7 @@ addressQuery: "Amora Lagoon, Katunayake | ፈለቀ ተካ የሠርግ አዳ�
 # Integrations and External URLs
 formspreeId: "xjgzaejz"
 googleSheetsRsvpUrl: "https://script.google.com/macros/s/AKfycbzVuUANOoVp_nqhz1aACI0S1Y717gFpPsWqgKrib-xviJtpQa6aq2RCFezD2uT-0NCT/exec"
-backgroundMusicUrl: "https://www.dropbox.com/scl/fi/iu4xpwcbezemguzfr1g8m/abinet-agonafir-yewune_-1.mp3?rlkey=b6p9kklmexpuqi5hga90kwz8k&st=t2lmd9zb&raw=1"
+backgroundMusicUrl: "/music/Risk It All.mp3"
 youtubeVideoId: "x0U55UcW2Aw"
 telegramUrl: "https://t.me/AbruhasetKalkidanWeddingMemories"
 googleAnalyticsId: "G-XXXXXXXXXX" # Your Google Analytics (GA4) Measurement ID (optional)
