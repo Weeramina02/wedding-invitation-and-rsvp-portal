@@ -316,14 +316,14 @@ export default function App() {
           
           <p className="font-sans text-[10px] uppercase tracking-wider text-brand-cream/45 pt-4">
             <a
-              href="https://github.com/TadiosAbebe/wedding-invitation-and-rsvp-portal"
+              href="https://www.instagram.com/_weeramina_?stkn=MXZiMmpyOTEwcXBqaw=="
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-brand-gold transition-colors duration-200 underline decoration-brand-gold/30 underline-offset-4"
             >
               {language === 'am' 
                 ? 'ይህ ሲስተም ነፃ እና ክፍት ምንጭ ነው - በGitHub ያግኙት' 
-                : 'Open Source & Reusable — View on GitHub'
+                : 'A project by Weeramina'
               }
             </a>
           </p>
