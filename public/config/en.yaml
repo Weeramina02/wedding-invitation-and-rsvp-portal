@@ -32,7 +32,7 @@ sectionConfigs:
     subtitle: "Captured Moments"
   location:
     title: "The Location"
-    subtitle: "Feleke Teka Wedding Hall"
+    subtitle: "Amora Lagoon, Katunayake"
   memoryshare:
     title: "Share Your Memories"
     subtitle: "Telegram Live Memory Box"
@@ -180,10 +180,10 @@ translations:
     of: "of"
   location:
     label: "The Location"
-    title: "Feleke Teka Wedding Hall"
+    title: "Amora Lagoon, Katunayake"
     pinLabel: "The Venue Location"
     byCarLabel: "Travel By Vehicle"
-    byCarText: "Secure parking is provided inside the north gates starting at 12:00 PM."
+    byCarText: "Secure parking is provided inside the premises."
   memoryShare:
     label: "Share Your Memories"
     title: "Telegram Live Memory Box"
