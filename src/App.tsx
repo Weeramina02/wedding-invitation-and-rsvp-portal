@@ -76,7 +76,7 @@ export default function App() {
       <div className="fixed bottom-6 left-6 z-40 bg-brand-primary/95 backdrop-blur-md text-white border border-[#E5E2D9]/25 px-4 py-2.5 rounded-full text-[10px] sm:text-xs font-sans tracking-widest shadow-xl flex items-center gap-3 animate-fade-in">
         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
         <span className="font-serif select-none hidden sm:inline text-brand-gold font-bold">
-          {groom} &amp; {bride} • 2026 {language === 'am' ? 'መስከረም' : 'Sept'} 20
+          {groom} &amp; {bride} • 2026 {language === 'am' ? 'መስከረም' : 'Oct'} 29
         </span>
         {multilingualEnabled && (
           <>
