@@ -46,7 +46,7 @@ export default function Monogram({ className = '', size = 160 }: MonogramProps) 
         textAnchor="middle"
         className="tracking-widest select-none"
       >
-        {config.monagramInitials || 'A&K'}
+        {config.monagramInitials || 'S&T'}
       </text>
 
       <path
