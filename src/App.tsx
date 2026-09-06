@@ -295,7 +295,7 @@ export default function App() {
         <Heart className="w-8 h-8 text-brand-gold mx-auto animate-pulse" />
         
         <h2 className="font-serif text-3xl text-brand-cream tracking-normal font-light">
-          {groom} <span className="font-sans text-[#E5E2D9] text-base align-middle font-light">{t('common.and', 'and')}</span> {bride}
+          {bride} <span className="font-sans text-[#E5E2D9] text-base align-middle font-light">{t('common.and', 'and')}</span> {groom}
         </h2>
         
         <p className="font-sans text-[10px] uppercase tracking-[0.25em] text-brand-gold font-bold">
