@@ -36,13 +36,13 @@ sections:
   audioPlayer: true
   story: true
   countdown: true
-  videoPreview: true
+  videoPreview: false
   saveTheDate: true
   location: true
   timeline: true
   gallery: true
-  memoryShare: true
-  guestbook: true
+  memoryShare: false
+  guestbook: false
   rsvpForm: true
 
 # Section navbar visibility
@@ -70,7 +70,7 @@ sectionConfigs:
 
 # Multi-lingual definition
 multilingual:
-  enabled: true
+  enabled: false
   defaultLanguage: "en"
   languages:
     - code: "en"
