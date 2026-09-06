@@ -77,7 +77,7 @@ export default function LocationMap({ bgClass }: { bgClass?: string; key?: React
             {config.sectionConfigs?.location?.title?.[language] || t('location.label', 'The Location')}
           </span>
           <h2 className="font-serif text-3xl md:text-5xl text-brand-primary font-light tracking-wide leading-tight">
-            {config.sectionConfigs?.location?.subtitle?.[language] || t('location.title', 'Feleke Teka Wedding Hall')}
+            {config.sectionConfigs?.location?.subtitle?.[language] || t('location.title', 'Amora Lagoon, Katunayake')}
           </h2>
           <div className="h-[1px] w-16 bg-[#E5E2D9] mx-auto lg:mx-0 opacity-80" />
           
@@ -117,7 +117,7 @@ export default function LocationMap({ bgClass }: { bgClass?: string; key?: React
                   {t('location.pinLabel', 'The Venue Location')}
                 </p>
                 <p className="font-body text-sm text-brand-primary/80 mt-0.5">
-                  {t('location.byCarText', 'Secure parking is provided inside the north gates starting at 12:00 PM.')}
+                  {t('location.byCarText', 'Secure parking is provided inside the premises.')}
                 </p>
               </div>
             </motion.div>
