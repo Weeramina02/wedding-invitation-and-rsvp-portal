@@ -81,9 +81,9 @@ multilingual:
 # Hero slide show images
 heroImages:
   - "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&q=80&w=1600"
-  - "https://pub-aeff58e1eddc4985935147b02488ea94.r2.dev/header-2.jpeg"
+  - "/images/hero04.jpg"
   - "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&q=80&w=1600"
-  - "https://pub-aeff58e1eddc4985935147b02488ea94.r2.dev/header-4.jpeg"
+  - "/images/Back.jpeg"
 
 # Story intro images
 introImages:
