@@ -34,13 +34,13 @@ googleAnalyticsId: "G-XXXXXXXXXX" # Your Google Analytics (GA4) Measurement ID (
 # Webpage Section Toggle Controls and Ordering
 sections:
   audioPlayer: true
-  story: true
+  story: false
   countdown: true
   videoPreview: false
   saveTheDate: true
   location: true
   timeline: true
-  gallery: true
+  gallery: false
   memoryShare: false
   guestbook: false
   rsvpForm: false
