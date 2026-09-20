@@ -114,7 +114,7 @@ export default function SaveTheDate({ bgClass }: { bgClass?: string; key?: React
             {config.sectionConfigs?.savethedate?.title?.[language] || t('calendar.title', 'The Invitation')}
           </span>
           <h2 className="font-serif text-3xl md:text-5xl text-brand-primary font-light tracking-wide leading-tight whitespace-pre-line">
-            {config.sectionConfigs?.savethedate?.subtitle?.[language] || t('calendar.defaultSubtitle', 'Reserve the Twentieth\nof September')}
+            {config.sectionConfigs?.savethedate?.subtitle?.[language] || t('calendar.defaultSubtitle', 'Reserve the Twenty Ninth\nof October')}
           </h2>
           <div className="h-[1px] w-16 bg-[#E5E2D9] mx-auto lg:mx-0 opacity-80" />
 
