@@ -2,13 +2,13 @@
 
 # Theme and Colors
 theme:
-  primaryColor: "#2f4237"      # High-contrast text, primary buttons, and headers
-  accentColor: "#C5A059"       # key lines, highlight indicators
-  goldColor: "#C5A059"         # used for slider pagination, counters
-  creamColor: "#FAF9F6"        # backdrop background
-  creamDarkColor: "#EAE7DF"    # cards/panels background
-  sageColor: "#9A9587"         # taupe or accent shadows
-  sageLightColor: "#EAE7DF"    # panel backgrounds and borders
+  primaryColor: "#5C2E1F"      # High-contrast text, primary buttons, and headers
+  accentColor: "#B5651D"       # key lines, highlight indicators
+  goldColor: "#C17A42"         # used for slider pagination, counters
+  creamColor: "#FFFFFF"        # backdrop background
+  creamDarkColor: "#F3E7DE"    # cards/panels background
+  sageColor: "#8C6A57"         # taupe or accent shadows
+  sageLightColor: "#F3E7DE"    # panel backgrounds and borders
   primaryFont: "Playfair Display" # Display and Heading Font (from Google Fonts)
   secondaryFont: "Montserrat"     # Technical labels, Navigation and Badge Font
   bodyFont: "Source Serif 4"      # Readable body narrative and paragraphs
