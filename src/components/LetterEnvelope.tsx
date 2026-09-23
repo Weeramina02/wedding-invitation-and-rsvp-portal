@@ -93,7 +93,7 @@ export default function LetterEnvelope({ onOpen, groom, bride, monogram }: Lette
                 className="w-full h-full"
                 style={{
                   clipPath: 'polygon(0 0, 100% 0, 50% 100%)',
-                  background: 'linear-gradient(160deg, #2b2b2b, #1a1a1a)',
+                  background: 'linear-gradient(160deg, #D8C3A5, #F1E3CC)',
                 }}
               />
             </motion.div>
