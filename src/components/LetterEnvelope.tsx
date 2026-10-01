@@ -39,6 +39,52 @@ export default function LetterEnvelope({ onOpen, groom, bride, monogram }: Lette
 
   const greeting = `Dear ${guest.prefix ? guest.prefix + ' ' : ''}${guest.name},`;
 
+  // Pick envelope/card size + font sizes based on how long the greeting is,
+  // so a long prefix+name (e.g. "Mrs. Susandi Weerasooriya") still fits
+  // inside the card instead of wrapping behind the flap.
+  const getSizeTier = (len: number) => {
+    if (len <= 20) {
+      return {
+        envelopeSize: 'w-[300px] sm:w-[380px] h-[220px] sm:h-[260px]',
+        greetingText: 'text-base sm:text-lg',
+        subtitleText: 'text-[10px] sm:text-xs',
+        coupleText: 'text-lg sm:text-xl',
+        heartMb: 'mb-3',
+        subtitleMt: 'mt-3',
+      };
+    }
+    if (len <= 32) {
+      return {
+        envelopeSize: 'w-[320px] sm:w-[400px] h-[240px] sm:h-[280px]',
+        greetingText: 'text-sm sm:text-base',
+        subtitleText: 'text-[9px] sm:text-[11px]',
+        coupleText: 'text-base sm:text-lg',
+        heartMb: 'mb-2',
+        subtitleMt: 'mt-2',
+      };
+    }
+    if (len <= 48) {
+      return {
+        envelopeSize: 'w-[340px] sm:w-[420px] h-[270px] sm:h-[310px]',
+        greetingText: 'text-xs sm:text-sm',
+        subtitleText: 'text-[8px] sm:text-[10px]',
+        coupleText: 'text-base sm:text-lg',
+        heartMb: 'mb-2',
+        subtitleMt: 'mt-2',
+      };
+    }
+    return {
+      envelopeSize: 'w-[90vw] max-w-[440px] h-[300px] sm:h-[340px]',
+      greetingText: 'text-[11px] sm:text-xs',
+      subtitleText: 'text-[8px] sm:text-[9px]',
+      coupleText: 'text-sm sm:text-base',
+      heartMb: 'mb-1.5',
+      subtitleMt: 'mt-1.5',
+    };
+  };
+
+  const tier = getSizeTier(greeting.length);
+
   return (
     <AnimatePresence>
       {stage !== 'done' && (
@@ -52,7 +98,7 @@ export default function LetterEnvelope({ onOpen, groom, bride, monogram }: Lette
 
           {/* Envelope */}
           <div
-            className="relative w-[300px] sm:w-[380px] h-[220px] sm:h-[260px] cursor-pointer group"
+            className={`relative ${tier.envelopeSize} cursor-pointer group`}
             onClick={handleOpen}
             role="button"
             tabIndex={0}
@@ -72,12 +118,14 @@ export default function LetterEnvelope({ onOpen, groom, bride, monogram }: Lette
               transition={{ duration: 0.9, ease: 'easeOut', delay: stage === 'opening' ? 0.35 : 0 }}
               className="absolute left-[6%] right-[6%] bottom-0 h-[80%] bg-brand-cream rounded-sm shadow-xl z-20 flex flex-col items-center justify-center px-5 text-center border border-brand-gold/15"
             >
-              <Heart className="w-5 h-5 text-brand-gold mb-3" />
-              <p className="font-serif text-base sm:text-lg text-brand-primary italic">{greeting}</p>
-              <p className="font-sans text-[10px] sm:text-xs uppercase tracking-[0.2em] text-brand-primary/60 mt-3 leading-relaxed">
+              <Heart className={`w-5 h-5 text-brand-gold ${tier.heartMb}`} />
+              <p className={`font-serif ${tier.greetingText} text-brand-primary italic leading-snug break-words max-w-[90%]`}>
+                {greeting}
+              </p>
+              <p className={`font-sans ${tier.subtitleText} uppercase tracking-[0.2em] text-brand-primary/60 ${tier.subtitleMt} leading-relaxed`}>
                 You are lovingly invited to the wedding of
               </p>
-              <p className="font-serif text-lg sm:text-xl text-brand-accent mt-1">
+              <p className={`font-serif ${tier.coupleText} text-brand-accent mt-1`}>
                 {groom || 'Tharindu'} &amp; {bride || 'Susandi'}
               </p>
             </motion.div>
@@ -93,7 +141,7 @@ export default function LetterEnvelope({ onOpen, groom, bride, monogram }: Lette
                 className="w-full h-full"
                 style={{
                   clipPath: 'polygon(0 0, 100% 0, 50% 100%)',
-                  background: 'linear-gradient(160deg, #D8C3A5, #F1E3CC)',
+                  background: 'linear-gradient(160deg, #2b2b2b, #1a1a1a)',
                 }}
               />
             </motion.div>
